@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <meta name="viewport" content="width=device-width",initial-scale="1">
 <link rel = "stylesheet" href="css/bootstrap.css">
 <title>JSP 게시판 웹 사이트</title>
@@ -29,7 +29,8 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">접속하기<span class="caret"></span></a>
+						aria-expanded="false">접속하기
+						<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li class="active"><a href="login.jsp">로그인</a></li>
 						<li><a href="join.jsp">회원가입</a></li>
@@ -42,7 +43,7 @@
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top:20px;">
-				<form method="post" action="loginAction".jsp">
+				<form method="post" action="loginAction.jsp">
 					<h3 style="text-align:center;">로그인 화면</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">	
@@ -61,8 +62,7 @@
 		
 	
 	</div>
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstap.js"></script>
 </body>
 </html>
